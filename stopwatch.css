@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    width: 20%;
+    position: block;
+    margin: auto;
+    margin-top: 100px;
+    border: solid white 5px;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+      0 0 40px #0ba9ca, 0 0 50px #0ba9ca;
+    -webkit-animation: blink 0.7s infinite alternate;
+    animation: blink 0.7s infinite alternate;
+    padding: 10%;
+    background-color: grey;
+
+  }
+ 
+  
+  #frankie {
+    letter-spacing: 5px;
+  }
+  
+  #timer {
+    font-family: times;
+    font-size: 50px;
+    font-weight: 300px;
+    color: white;
+    
+  }
+  
+  button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ 
+  }
+  
+#app-stopwatch {
+
+  border: double white 50px;
+  background: teal;
+  
+
+}
+
+  #reset {
+    background-color: red;
+    font-size: 25px;
+  }
+
+  #toggle {
+    background-color: rgb(0, 255, 0);
+    font-size: 25px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  @-webkit-keyframes blink {
+    100% {
+      box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,
+        0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
+  
+  @keyframes blink {
+    100% {
+      box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,
+        0 0 70px #0ba9ca, 0 0 80px #0ba9ca;
+    }
+  }
